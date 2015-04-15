@@ -110,7 +110,7 @@ public class CSE2Linear {
             System.out.println(number3 + " was found with " + linearResult + " iterations");
         }
         else{
-            System.out.println(number3 + " was found with " + scrambledArray.length + " iterations");
+            System.out.println(number3 + " was not found with " + scrambledArray.length + " iterations");
         }
         
         
