@@ -28,7 +28,7 @@ public class Multiply {
                 continue;
             }
             number = myScanner.nextInt();
-            if (number > 0) { //if input is between 1 and 100 contiues to next input
+            if (number > 0) { //if input is positive contiues to next input
                 columnOne = number;
                 break;
             }
@@ -111,7 +111,6 @@ public class Multiply {
         printMatrix(productMatrix);
         break;}
         }
-
     }
     
     //Method generates random numbers for a matrix of given size input by the user
